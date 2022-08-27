@@ -8,7 +8,7 @@ func main() {
 }
 
 func newCard() string {
-	return "Ace of Spaces"
+	return "Ace of Diamonds"
 }
 
 func testing() {
