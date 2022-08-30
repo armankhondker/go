@@ -3,8 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	card := newCard()
-	fmt.Println(card)
+	cards := []string{"Aces of Spades", newCard()}
+	cards = append(cards, "Diamond")
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
+	fmt.Println(cards)
 }
 
 func newCard() string {
