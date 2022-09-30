@@ -10,3 +10,19 @@ func (d deck) print() {
 		fmt.Println(i, card)
 	}
 }
+
+func (d deck) shuffle() {
+
+}
+
+func (d deck) deal() {
+
+}
+
+func (d deck) saveToDeal() {
+
+}
+
+func (d deck) newDeckFromFile() {
+
+}
