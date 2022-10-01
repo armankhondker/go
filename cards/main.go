@@ -13,11 +13,10 @@ func main() {
 	// cards := []string{"Arman", "Ganiyu", "Punit"}
 	// cards = append(cards, "Test")
 	// fmt.Println(cards)
-
-	mycards := deck{"Kai", "Lindsey", "Jianfeng"}
-	mycards.print()
-}
-
-func helper() string {
-	return "Five of Diamonds"
+	// mycards := deck{"Kai", "Lindsey", "Jianfeng"}
+	// mycards.print()
+	cards := newDeck()
+	hand, remainingDeck := deal(cards, 5)
+	hand.print()
+	remainingDeck.print()
 }
