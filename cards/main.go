@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// var card string = "Aces of Spades"
 	// fmt.Println(card)
@@ -19,4 +21,7 @@ func main() {
 	hand, remainingDeck := deal(cards, 5)
 	hand.print()
 	remainingDeck.print()
+
+	greeting := "Hello World!"
+	fmt.Println([]byte(greeting)) //convert greeting into a byte[]
 }
